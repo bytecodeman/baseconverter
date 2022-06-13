@@ -1,0 +1,59 @@
+﻿body {
+    margin-bottom: 70px;
+	overflow-y: scroll;
+}
+#resultsPanel {
+    border: inset black thin;
+    white-space:pre-line;
+    padding: 1rem;
+}
+.jumbotron {
+	padding: 2rem;
+}
+#submit {
+    margin-top: 30px;
+}
+.adsbygoogle {
+    display: block;
+}
+#copyToClipboard {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+}
+#copyToClipboard img {
+    width: 100%; 
+    height: auto;
+    cursor: pointer;
+}
+div.clearfix {
+    margin-bottom: 20px;
+}
+
+fieldset.baseConversion {
+   border: solid thin black !important;
+   padding: 1rem;
+   margin-bottom: 1rem;
+   font-weight: bold;
+   font-size: 1.5rem;
+}
+
+fieldset.baseConversion legend {
+  width: auto;
+  padding: 0 10px;
+  border-left: solid thin black;
+  border-right: solid thin black;
+  font-size: 1.2rem;
+}
+
+div#conversionResults {
+  font-family: monospace;
+  white-space: pre;
+}
+
+#baseConverterForm input {
+  height: 60px;
+  padding: 10px !important;
+  font-size: 1.5em !important;
+}
